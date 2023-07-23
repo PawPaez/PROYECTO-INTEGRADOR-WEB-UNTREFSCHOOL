@@ -1,0 +1,54 @@
+@import url(https://fonts.google.com/specimen/Belanosima);
+@import url(https://fonts.google.com/specimen/Poppins);
+:root{
+    --rojo: #FC7300;
+    --verde: #1F8A70;
+    --azul: #00425A;
+    --negro: #181823;
+    --blanco: #EFF5F5;
+    --tablet: 768px;
+    --mobile: 320px;
+}
+ *{/* border: 1px;
+    border-color: #181823;
+    border-style: solid;  */
+    margin: 0;
+    padding: 0;
+}  
+#navbar{
+    height: 5vh;
+    background-color: var(--verde);
+    position: sticky;
+    top: 0;
+}
+
+.listaEnRenglon{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.listaEnRenglon li{
+    height: 100%;
+    display: flex;
+    padding: auto;
+}
+
+.listaEnRenglon li :hover{ 
+     background-color: var(--azul);
+}
+
+.estiloNavbar{
+    height: 100%;
+}
+
+.listaEnRenglon li a{
+    text-decoration: none;
+    color: var(--blanco);
+    margin: auto;
+}
+
+#header{
+    background-image: url("images/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+    height: 00%;
+}
