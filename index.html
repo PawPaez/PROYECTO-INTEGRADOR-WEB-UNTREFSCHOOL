@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,196 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav id="navbar">
-        <ul class="listaEnRenglon estiloNavbar" >
-            <li><a href="">Quienes somos</a></li>
-            <li><a href="">Por que elegirnos</a> </li>
-            <li><a href="">Propuesta educativa</a> </li>
-            <li><a href="">Ultimas Noticias</a> </li>
+        <ul class="listaEnRenglon estiloNavbar">
+            <li><a href="#quienesSomos">Quienes somos</a></li>
+            <li><a href="#porqueElegirnos">Por que elegirnos</a> </li>
+            <li><a href="#propuestaEducativa">Propuesta educativa</a> </li>
+            <li><a href="#noticias">Ultimas Noticias</a> </li>
             <li><a href="formulario.html">Formulario</a></li>
         </ul>
     </nav>
-    <header id="header">
-        <h1>UNTREF SCHOOL</h1>
-    </header>
-    <section>
-        
+    <div class="viewport" id="quienesSomos">
+        <header id="header">
+            <h1 id="titulo">UNTREF SCHOOL</h1>
+            <img id="fondo" src="/images/Escuela.jpg" alt="">
+        </header>
+        <section class="quienesSomos row">
+            <h1 class="font">Quienes somos?</h1>
+            <div class="historia">
+                <p class="font">Nuestra escuela primaria, fue fundada en 1975 por educadores apasionados, tiene como
+                    objetivo proporcionar una educación integral a niños de 5 a 11 años. A lo largo de los años, hemos
+                    experimentado un crecimiento constante y hemos mejorado nuestras instalaciones y recursos para estar
+                    a la vanguardia de la educación moderna. Contamos con un equipo de docentes altamente capacitados y
+                    comprometidos con el desarrollo académico y personal de cada niño. Nuestra misión es estimular la
+                    curiosidad, fomentar el amor por el aprendizaje y preparar a nuestros estudiantes para enfrentar los
+                    retos del futuro en un ambiente acogedor y enriquecedor. Nuestra trayectoria y legado nos inspiran a
+                    seguir evolucionando y brindar una educación de calidad a las generaciones futuras.</p>
+                <img id="directora" src="/images/Directora.jpg" alt="">
+            </div>
+        </section>
+    </div>
+    <section id="porqueElegirnos" class="altoSeccion">
+        <h1 class="font">Por que elegirnos?</h1>
+        <div class="flexContainer font">
+            <div class="rowItems">
+                <img class="contentImagen" src="images/Clases.jpg" alt="">
+                <div>
+                    <h2 class="fontSize">Excelencia Academica</h2>
+                    <p>Nuestro equipo docente está comprometido con la excelencia académica y trabaja arduamente para
+                        asegurarse de que cada estudiante alcance su máximo potencial.</p>
+                    <h2 class="fontSize">Ambiente de apoyo</h2>
+                    <p>Creamos un ambiente de apoyo y respeto donde cada niño se sienta valorado y motivado para
+                        aprender y crecer.</p>
+                </div>
+            </div>
+            <div class="rowItems">
+                <img class="contentImagen" src="images/Salon.jpg" alt="">
+                <div>
+                    <h2 class="fontSize">Enfoque integral</h2>
+                    <p> Nuestra propuesta educativa abarca aspectos académicos, sociales y emocionales para garantizar
+                        un
+                        desarrollo completo de los estudiantes.</p>
+                    <h2 class="fontSize">Tecnología y recursos</h2>
+                    <p>Contamos con recursos tecnológicos actualizados y metodologías modernas que enriquecen la
+                        experiencia
+                        educativa de los estudiantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="font propuesta altoSeccion" id="propuestaEducativa">
+        <h1>Propuesta educativa</h1>
+        <p>En nuestra escuela primaria, tenemos una propuesta educativa sólida y diversificada</p>
+        <div class="cards">
+            <div class="cardPropuesta">
+                <h2>Enfoque académico</h2>
+                <div class="cardContent">
+                    <img src="/images/Enfoque Academico.jpg" alt="">
+                    <p>Nuestra propuesta se centra en brindar una educación sólida en áreas fundamentales como lectura,
+                        escritura, matemáticas, ciencias y estudios sociales. Fomentamos el pensamiento crítico y la
+                        resolución de problemas para que los estudiantes desarrollen habilidades que les serán útiles en
+                        su vida académica y más allá.</p>
+                </div>
+            </div class="">
+            <div class="cardPropuesta">
+                <h2>Educación integral</h2>
+                <div class="cardContent">
+                    <img src="images/Asistencia social.jpg" alt="">
+                    <p>Reconocemos la importancia de desarrollar no solo las habilidades académicas, sino también las
+                        sociales y emocionales. Nuestro programa incluye actividades y talleres que promueven el
+                        desarrollo de habilidades sociales, la empatía y la autoestima.</p>
+                </div>
+            </div>
+            <div class="cardPropuesta">
+                <h2>Tecnología educativa</h2>
+                <div class="cardContent">
+                    <img src="images/Enfoque tecnologico.jpg" alt="">
+                    <p> Integrar la tecnología de manera significativa en el proceso de aprendizaje es parte de nuestra
+                        propuesta. Utilizamos herramientas digitales para enriquecer las experiencias educativas y
+                        preparar a los estudiantes para un mundo cada vez más digitalizado.</p>
+                </div>
+            </div>
+            <div class="cardPropuesta">
+                <h2>Educación física y arte</h2>
+                <div class="cardContent">
+                    <img src="images/taller-de-cocina.webp" alt="">
+                    <p>Valoramos la importancia de la actividad física y la expresión artística en el desarrollo
+                        integral de los niños. Por eso, ofrecemos clases de educación física, música, arte y otras
+                        actividades extracurriculares que fomenten la creatividad y la expresión individual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="font noticias altoSeccion" id="noticias">
+        <h1>Ultimas Noticias</h1>
+        <div class="flexContainer">
+            <div class="rowItems">
+                <img class="imagenNoticias" src="images/Aniversario.jpg" alt="">
+                <div>
+                    <h2>"Celebramos nuestro aniversario número 48 con éxito y gratitud":</h2>
+                    <p> Nuestra escuela primaria celebró su 48º aniversario con entusiasmo y agradecimiento. Durante el
+                        evento, se llevó a cabo una emocionante ceremonia en la que se reconocieron los logros de
+                        estudiantes destacados y se rindió homenaje a los docentes y personal que han contribuido al
+                        éxito
+                        de nuestra institución a lo largo de los años.</p>
+                </div>
+            </div>
+            <div class="rowItems">
+                <img class="imagenNoticias" src="images/Laboratorio.jpg" alt="">
+                <div>
+                    <h2>"Inauguración del nuevo laboratorio de ciencias"</h2>
+                    <p>Con el compromiso de brindar una educación de vanguardia, nuestra escuela inauguró un moderno
+                        laboratorio de ciencias completamente equipado. Esta nueva instalación permitirá a los
+                        estudiantes
+                        participar en experiencias prácticas y emocionantes en el campo de las ciencias, promoviendo su
+                        curiosidad y comprensión del mundo que los rodea.</p>
+                </div>
+            </div>
+            <div class="rowItems">
+                <img class="imagenNoticias" src="images/Prmio.jpg" alt="">
+                <div>
+                    <h2>"Premio Nacional de Excelencia Educativa"</h2>
+                    <p> Nuestra escuela fue galardonada con el prestigioso "Premio Nacional de Excelencia Educativa" por
+                        su
+                        destacada calidad académica y su enfoque en el desarrollo integral de los estudiantes. El
+                        reconocimiento destaca el compromiso continuo de nuestros docentes y personal en brindar una
+                        educación de alta calidad a la comunidad.</p>
+                </div>
+            </div>
+            <div class="rowItems">
+                <img class="imagenNoticias" src="images/Excursion.jpg" alt="">
+                <div>
+                    <h2>"Excursión educativa a un parque natural"</h2>
+                    <p>Como parte de nuestra propuesta educativa integral, los estudiantes de diferentes grados
+                        disfrutaron
+                        de una emocionante excursión a un parque natural cercano. Durante la actividad, los niños
+                        tuvieron
+                        la oportunidad de aprender sobre la flora y fauna local, fortaleciendo su conexión con la
+                        naturaleza
+                        y adquiriendo conocimientos prácticos sobre el medio ambiente.</p>
+                </div>
+
+            </div>
+        </div>
     </section>
 </body>
+<footer class="contentFooter">
+    <div class="contentRedes">
+        <h2>Redes Sociales</h2>
+        <div>
+            <img src="" alt="">
+            <h3>Facebook</h3>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3>Instagram</h3>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3>Twitter</h3>
+        </div>
+    </div>
+    <div class="contentTitulo">
+        <h1>UNTREF SCHOOL</h1>
+    </div>
+    <div class="contentContacto ">
+        <h2>Contacto</h2>
+        <div>
+            <img src="" alt="">
+            <h3>Email: untrefschool@gmail.com</h3>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3> WApp: 2314-667788</h3>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h3>Tel: 2314-668877</h3>
+        </div>
+    </div>
+</footer>
+
 </html>
